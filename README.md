@@ -1,52 +1,36 @@
-# Quiz App
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A dynamic quiz application built with Next.js, TypeScript, and Tailwind CSS.
+## Getting Started
 
-## Tech Stack
+First, run the development server:
 
-- Next.js 16 (App Router)
-- React 19
-- TypeScript
-- Tailwind CSS
-- ESLint
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Features
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Category selection before starting quiz
-- Shuffled question order for each run
-- Retake flow that returns to category selection page
-- Question timer (15s per question)
-- Progress bar and live score tracking
-- Answer feedback (correct/incorrect highlighting)
-- Final score/result screen
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Project Structure
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- app/page.tsx - Home screen
-- app/quiz/page.tsx - Quiz flow and state logic
-- components/QuestionCard.tsx - Question and options UI
-- components/ResultCard.tsx - Result screen UI
-- data/questions.ts - Question data
+## Learn More
 
-## Run Locally
+To learn more about Next.js, take a look at the following resources:
 
-1. Install dependencies:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-	npm install
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-2. Start dev server:
+## Deploy on Vercel
 
-	npm run dev -- --hostname 127.0.0.1 --port 3000
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-3. Open in browser:
-
-	http://127.0.0.1:3000
-
-## Quiz Flow
-
-1. Open /quiz
-2. Select category (or "All categories")
-3. Start quiz
-4. Answer questions before timer ends
-5. See results
-6. Click "Retake Quiz" to return to category selection
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
