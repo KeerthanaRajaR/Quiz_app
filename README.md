@@ -50,3 +50,6 @@ A dynamic quiz application built with Next.js, TypeScript, and Tailwind CSS.
 4. Answer questions before the timer ends
 5. View your result screen
 6. Click `Retake Quiz` to go back to category selection
+
+## Demo Video
+[Screencast from 2026-04-03 12-56-20.webm](https://github.com/user-attachments/assets/49fb98e4-1170-4812-a2c0-0eb966711b1b)
